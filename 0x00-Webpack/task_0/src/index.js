@@ -1,11 +1,5 @@
-import $ from 'jquery';
+const $ = require( "jquery" );
 
-// Function to create and append paragraphs
-function addParagraphs() {
-    for (let i = 1; i <= 3; i++) {
-        $('body').append(`<p>This is paragraph ${i}</p>`);
-    }
-}
-
-// Call the function to add paragraphs
-addParagraphs();
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
