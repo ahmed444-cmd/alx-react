@@ -17,6 +17,5 @@ $(document).ready(function() {
   }
 
   // Bind the debounce function to the click event
-  const debouncedUpdateCounter = debounce(updateCounter, 300);
-  $('#clickButton').on('click', debouncedUpdateCounter);
+   $('#clickButton').on('click', _.debounce(updateCounter, 500));
 });
