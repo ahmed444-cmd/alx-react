@@ -12,20 +12,13 @@
   "dependencies": {
     "http-cache-semantics": "^4.1.1",
     "jquery": "^3.6.0",
-    "lodash": "^4.17.21",
-    "semver-regex": "^4.0.5"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "css-loader": "^6.11.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.1.0",
-    "npm-force-resolutions": "0.0.10",
     "style-loader": "^3.3.4",
     "webpack": "^5.96.1",
     "webpack-cli": "^4.10.0"
-  },
-  "resolutions": {
-    "http-cache-semantics": "latest",
-    "semver-regex": "latest"
   }
-}
