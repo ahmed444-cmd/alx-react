@@ -15,6 +15,11 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     clean: true,
   },
+  optimization: {
+    splitChunks: {
+    chunks: 'all',  // This allows for splitting chunks for all types of modules
+    },
+  },
   module: {
     rules: [
       {
