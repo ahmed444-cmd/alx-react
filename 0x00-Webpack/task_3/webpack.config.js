@@ -30,9 +30,10 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    port: 8564,
-    open: true,
-  },
+  port: 8564,
+  static: './public',
+  hot: true,
+  // open: true,
+},
   devtool: 'inline-source-map', // Source mapping for debugging
 };
